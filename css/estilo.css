@@ -37,7 +37,8 @@ header {
 }
 
 .ativa {
-    background-color: #030f19;
+    background-color: var(--secundaria);
+    box-shadow: 0px 0px 2px  var(--detalhes);
 }
 
 .logo {
@@ -174,18 +175,20 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0.5rem;
-   
+
 }
-.familia-imagem img{
+
+.familia-imagem img {
     width: 100%;
     height: 100%;
     transition: 0.6s;
     border-radius: 5px;
     border: 2px solid var(--detalhes);
-    
+
 }
+
 .familia-imagem img:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
@@ -194,6 +197,7 @@ transform: scale(1.1);
     margin-bottom: 10px;
 
 }
+
 .familia-texto h1 {
     font-size: var(--font-g);
     color: var(--corpo);
@@ -207,6 +211,73 @@ transform: scale(1.1);
     margin-bottom: 10px;
 
 }
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.texto-centro {
+    height: max-content;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.texto-centro h2 {
+    color: var(--detalhes);
+    margin-bottom: 10px;
+
+}
+
+.texto-centro h1 {
+    font-size: var(--font-g);
+    color: var(--corpo);
+    margin-bottom: 10px;
+}
+
+.blog-imagem {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    grid-gap: 2rem;
+
+
+}
+
+.blog-imagem img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.card {
+    background-color: var(--corpo);
+    border-radius: 5px;
+    border: 3px solid var(--detalhes);
+    box-shadow: 0px 0px 2px var(--outras);
+    transition: 0.6s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.texto-card {
+    padding: 10px;
+}
+
+.texto-card :nth-child(n) {
+    margin-bottom: 10px;
+}
+
+.lermais {
+    color: #e6a61d;
+    
+  
+}
+
 
 
 
@@ -272,18 +343,35 @@ transform: scale(1.1);
         margin: 10px;
 
     }
+
     .familia {
-        grid-template-columns:1fr;
-       
-    
-    
+        grid-template-columns: 1fr;
+
+
+
     }
+
     .familia-imagem {
         grid-row: 2;
     }
-
-
     
+    
+    .familia-texto h1 {
+        font-size: var(--font-m);
+        color: var(--corpo);
+        margin-bottom: 10px;
+    }
+    
+
+    .texto-centro h1 {
+        font-size: var(--font-m);
+        color: var(--corpo);
+        margin-bottom: 10px;
+    }
+
+
+
+
 
 }
 
@@ -305,4 +393,5 @@ transform: scale(1.1);
         margin-bottom: 10px;
 
     }
+
 }
