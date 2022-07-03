@@ -24,6 +24,7 @@
 
 body {
     position: relative;
+    background-color: var(--secundaria);
 }
 
 header {
@@ -160,16 +161,51 @@ section {
 .familia {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    align-items: center;
+    background: url("../img/bg-pag1.png");
+    background-position: center;
+    background-size: cover;
+
+
 }
 
 .familia-imagem {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 0.2rem
+    grid-gap: 0.5rem;
+   
 }
 .familia-imagem img{
     width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    border-radius: 5px;
+    border: 2px solid var(--detalhes);
     
+}
+.familia-imagem img:hover {
+transform: scale(1.1);
+
+}
+
+.familia-texto h2 {
+    color: var(--detalhes);
+    margin-bottom: 10px;
+
+}
+.familia-texto h1 {
+    font-size: var(--font-g);
+    color: var(--corpo);
+    margin-bottom: 10px;
+}
+
+
+
+.familia-texto p {
+    color: var(--corpo);
+    margin-bottom: 10px;
+
 }
 
 
@@ -236,6 +272,18 @@ section {
         margin: 10px;
 
     }
+    .familia {
+        grid-template-columns:1fr;
+       
+    
+    
+    }
+    .familia-imagem {
+        grid-row: 2;
+    }
+
+
+    
 
 }
 
