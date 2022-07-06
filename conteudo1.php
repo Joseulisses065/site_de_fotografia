@@ -256,8 +256,8 @@
                 <img src="" alt="">
                 <br>
                 <p>Confecção dos moldes
-                    Fonte:
-                    http://diariodonordeste.verdesmares.com.br/suplementos/cariri-regional/estatua-do-padre-cicero-atraiu-mais-fieis-e-devotos-a-juazeiro-1.1411543
+                <a href="http://diariodonordeste.verdesmares.com.br/suplementos/cariri-regional/estatua-do-padre-cicero-atraiu-mais-fieis-e-devotos-a-juazeiro-1.1411543">Fonte</a>
+                    
 
                     Durante sua construção os trabalhos eram intensos, alcançando turnos com 24 horas. Grandes blocos de
                     concreto eram fixados aos poucos, acompanhando a formação da imagem. Usou-se grandes volumes de
