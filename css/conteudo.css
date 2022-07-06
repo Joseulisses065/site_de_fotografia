@@ -160,7 +160,7 @@ section {
     font-weight: bold;
     color: var(--corpo);
 }
-.blog {
+.galeria {
     display: grid;
     grid-template-columns: 1fr;
     background-position: bottom;
@@ -185,7 +185,7 @@ section {
     margin-bottom: 10px;
 }
 
-.blog-imagem {
+.galeria-imagem {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -194,7 +194,7 @@ section {
 
 }
 
-.blog-imagem img {
+.galeria-imagem img {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
 
@@ -223,6 +223,59 @@ section {
 .lermais {
     color: #e6a61d;
 
+
+}
+
+.localizacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    grid-gap: 3rem;
+    margin-bottom: 5rem;
+
+}
+
+.localizacao-imagem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.localizacao-imagem img {
+    max-height: 500px;
+    transition: 0.6s;
+    border-radius: 5px;
+    border: solid 3px var(--detalhes);
+}
+
+.localizacao-imagem img:hover {
+    transform: scale(1.1);
+}
+
+.localizacao-texto h2 {
+    color: var(--detalhes);
+    margin-bottom: 10px;
+
+}
+
+.localizacao-texto h1 {
+    font-size: var(--font-g);
+    color: var(--corpo);
+    margin-bottom: 10px;
+}
+
+
+
+.localizacao-texto p {
+    color: var(--corpo);
+    margin-bottom: 10px;
 
 }
 .Biografia div:nth-child(2){ 
@@ -402,6 +455,36 @@ footer{
         border: solid 3px var(--detalhes);
         margin-bottom: 20px;
     }
+
+
+    .localizacao {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .localizacao-imagem img {
+        border-radius: 100%;
+        height: 200px;
+        width: 200px;
+        border: var(--detalhes) 3px solid;
+
+    }
+    .localizacao-texto h2 {
+        font-size: 18px;
+
+    
+    }
+    .localizacao-texto h1 {
+        font-size: var(--font-m);
+    }
+
+    .localizacao-imagem svg {
+        margin: 10px;
+
+    }
+
+
     .contato {
         display: grid;
         grid-template-columns: 1fr;
@@ -433,6 +516,25 @@ footer{
         margin-bottom: 10px;
 
     }
+
+    .localizacao-texto h1 {
+        font-size: 2rem;
+        color: var(--detalhes);
+        margin-bottom: 10px;
+    }
+
+    .localizacao-texto h2 {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .localizacao-texto p {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+    
 
     
 

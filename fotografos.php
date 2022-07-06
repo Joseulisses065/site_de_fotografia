@@ -18,7 +18,7 @@
 <body>
     <!--cobeçalho do site-->
     <header>
-        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+        <a href="index.php" class="logo"><img src="img/logo.png" alt=""></a>
         <nav>
             <ul>
                 <li><a href="#inicio">inicio</a></li>

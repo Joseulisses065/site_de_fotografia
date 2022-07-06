@@ -18,7 +18,7 @@
 <body>
     <!--cobeçalho do site-->
     <header>
-        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+        <a href="index.php" class="logo"><img src="img/logo.png" alt=""></a>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -120,7 +120,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="/conteudo1.html" class="lermais">leia mais</a>
+                        <a href="/conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -135,7 +135,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="/conteudo1.html" class="lermais">leia mais</a>
+                        <a href="/conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -149,7 +149,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="/conteudo1.html" class="lermais">leia mais</a>
+                        <a href="/conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="/conteudo1.html" class="lermais">leia mais</a>
+                        <a href="/conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -176,7 +176,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="/conteudo1.html" class="lermais">leia mais</a>
+                        <a href="/conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -190,7 +190,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="/conteudo1.html" class="lermais">leia mais</a>
+                        <a href="/conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
                 </div>
@@ -209,9 +209,9 @@
                 <h1>fotografos experientes</h1>
             </div>
             <div class="fotografos-imagem">
-                <a href="/fotografos.html"><img src="img/fotografos-1.jpg" alt=""></a>
-                <a href="/fotografos.html"><img src="img/fotografos-2.jpg" alt=""></a>
-                <a href="/fotografos.html"><img src="img/fotografos-3.jpg" alt=""></a>
+                <a href="/fotografos.php"><img src="img/fotografos-1.jpg" alt=""></a>
+                <a href="/fotografos.php"><img src="img/fotografos-2.jpg" alt=""></a>
+                <a href="/fotografos.php"><img src="img/fotografos-3.jpg" alt=""></a>
 
             </div>
 

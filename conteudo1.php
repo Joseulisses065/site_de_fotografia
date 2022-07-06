@@ -18,7 +18,7 @@
 <body>
     <!--cobeçalho do site-->
     <header>
-        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+        <a href="index.php" class="logo"><img src="img/logo.png" alt=""></a>
         <nav>
             <ul>
                 <li><a href="#inicio">inicio</a></li>
@@ -82,13 +82,13 @@
             </div>
 
         </section>
-        <section class="conteudo-fotografo" id="galeria">
+        <section class="galeria" id="galeria">
             <div class="texto-centro">
                 <h2>Estátua de Padre Cícero</h2>
                 <h1>Galeria</h1>
             </div>
 
-            <div class="blog-imagem">
+            <div class="galeria-imagem">
 
 
                 <div class="card">
@@ -180,7 +180,7 @@
 
         </section>
         <!--seção inicial do site-->
-        <section class="inicio" id="localizacao">
+        <section class="localizacao" id="localizacao">
 
 
             <div class="inicio-texto">
