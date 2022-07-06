@@ -93,7 +93,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -108,7 +108,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -122,7 +122,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -149,7 +149,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -163,7 +163,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
                 </div>

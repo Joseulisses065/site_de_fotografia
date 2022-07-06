@@ -99,7 +99,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -114,7 +114,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -128,7 +128,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -155,7 +155,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -169,7 +169,7 @@
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="" class="lermais">leia mais</a>
+                        <a href="./conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
                 </div>
@@ -234,8 +234,9 @@
                     realização desse trabalho. A figura a seguir mostra o mesmo trabalhando com as proporções da
                     maquete.</p>
                 <img src="" alt="">
+                <br>
                 <p>Maquete usada como base para a Estátua do Padre Cícero
-                    Fonte: http://caririrevista.com.br/olha-la-no-alto-do-horto/
+                     <a href="http://caririrevista.com.br/olha-la-no-alto-do-horto/">Fonte</a>
 
                     A estátua não foi pensada da forma como é hoje desde o início, foram feitas várias idealizações
                     durante sua construção, aumentando várias vezes de tamanho.
@@ -253,6 +254,7 @@
                     Não existia na época da construção tecnologia para o processo de moldagem, sendo inteiramente
                     artesanal, os moldes eram feitos em madeira e agave, como mostra a figura a seguir.</p>
                 <img src="" alt="">
+                <br>
                 <p>Confecção dos moldes
                     Fonte:
                     http://diariodonordeste.verdesmares.com.br/suplementos/cariri-regional/estatua-do-padre-cicero-atraiu-mais-fieis-e-devotos-a-juazeiro-1.1411543
