@@ -339,6 +339,11 @@ footer {
         color: var(--corpo);
         margin-bottom: 10px;
     }
+    .localizacao{
+        grid-template-columns: 1fr;
+        
+    
+    }
 
     .Biografia {
         margin-top: 50vh;
@@ -407,6 +412,7 @@ footer {
     .familia-texto h1 {
         font-size: 1.8rem;
     }
+    
 
     .localizacao-texto h1 {
         font-size: 1.8rem;

@@ -90,7 +90,11 @@ section {
     padding: 90px 8%;
 
 }
-
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
 
 
 
