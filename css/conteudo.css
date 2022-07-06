@@ -144,27 +144,34 @@ section {
 
 }
 
-.indices{
+.indices {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
     align-items: center;
     justify-content: center;
 }
-.indices h3{
+
+.indices h3 {
     font-weight: bold;
     color: var(--detalhes);
     margin-bottom: 2px;
 }
-.indices h4{
+
+.indices h4 {
     font-weight: bold;
     color: var(--corpo);
 }
+
 .galeria {
     display: grid;
     grid-template-columns: 1fr;
     background-position: bottom;
     background-size: cover;
+}
+
+.galeria h1 {
+    font-size: 1.8rem;
 }
 
 .texto-centro {
@@ -278,15 +285,17 @@ section {
     margin-bottom: 10px;
 
 }
-.Biografia div:nth-child(2){ 
+
+.Biografia div:nth-child(2) {
     padding: 10px;
     background-color: var(--corpo);
 }
-.Biografia div:nth-child(2) p { 
+
+.Biografia div:nth-child(2) p {
     text-indent: 30px;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
 
 
@@ -294,46 +303,52 @@ section {
 .contato {
     padding: 90px 8%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
     text-align: center;
 }
-.contato h3{
-   color: var(--detalhes);
+
+.contato h3 {
+    color: var(--detalhes);
 }
-.cont-li{
+
+.cont-li {
     color: var(--corpo);
     transition: 0.6s;
     margin-top: 5px;
 }
-.cont-li a{
+
+.cont-li a {
     color: var(--corpo);
-    
+
 }
-.cont-li:hover{
+
+.cont-li:hover {
 
     margin-left: 20px;
 }
 
 
 
-.redes-sociais{
+.redes-sociais {
     color: var(--corpo);
     display: flex;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 20px;
     justify-content: space-around;
-   
+
 
 }
-.redes-sociais svg{
+
+.redes-sociais svg {
     transition: 0.6s;
 }
-.redes-sociais svg:hover{
+
+.redes-sociais svg:hover {
     transform: scale(1.1);
 }
 
-footer{
+footer {
     text-align: center;
     color: #e6a61d;
     margin-bottom: 10px;
@@ -394,11 +409,13 @@ footer{
         border: var(--detalhes) 3px solid;
 
     }
+
     .inicio-texto h2 {
         font-size: 18px;
 
-    
+
     }
+
     .inicio-texto h1 {
         font-size: var(--font-m);
     }
@@ -407,6 +424,8 @@ footer{
         margin: 10px;
 
     }
+
+
 
     .familia {
         grid-template-columns: 1fr;
@@ -432,23 +451,26 @@ footer{
         color: var(--corpo);
         margin-bottom: 10px;
     }
-    .Biografia{
+
+    .Biografia {
         margin-top: 50vh;
     }
-    .Biografia h1{
+
+    .Biografia h1 {
         font-size: var(--font-m);
 
     }
+
     .mapa {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-    
-    
-    
+
+
+
     }
-    
+
     .mapa iframe {
         width: 100%;
         border-radius: 5px;
@@ -470,11 +492,13 @@ footer{
         border: var(--detalhes) 3px solid;
 
     }
+
     .localizacao-texto h2 {
         font-size: 18px;
 
-    
+
     }
+
     .localizacao-texto h1 {
         font-size: var(--font-m);
     }
@@ -516,9 +540,15 @@ footer{
         margin-bottom: 10px;
 
     }
+
+    .galeria h1 {
+        font-size: 1.8rem;
+    }
+
     .familia-texto h1 {
         font-size: 1.8rem;
     }
+
     .localizacao-texto h1 {
         font-size: 1.8rem;
         color: var(--detalhes);
@@ -536,19 +566,22 @@ footer{
         margin-bottom: 10px;
 
     }
-    .indices h3{
+
+    .indices h3 {
         font-size: var(--font-p);
     }
-    .indices h4{
+
+    .indices h4 {
         font-size: var(--font-p);
     }
-    .Biografia h1{
+
+    .Biografia h1 {
         font-size: 1.8rem;
 
     }
-    
 
-    
+
+
 
 
 }

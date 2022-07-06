@@ -375,7 +375,7 @@ footer{
 @media (max-width: 400px) {
 
     .inicio-texto h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: var(--detalhes);
         margin-bottom: 10px;
     }
@@ -391,7 +391,10 @@ footer{
         margin-bottom: 10px;
 
     }
-
+    .texto-centro h1 {
+        font-size: 1.8rem;
+       
+    }
     .contato {
 
         grid-template-columns: 1fr;
