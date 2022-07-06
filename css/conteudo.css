@@ -500,7 +500,7 @@ footer{
 @media (max-width: 400px) {
 
     .inicio-texto h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         color: var(--detalhes);
         margin-bottom: 10px;
     }
@@ -516,9 +516,11 @@ footer{
         margin-bottom: 10px;
 
     }
-
+    .familia-texto h1 {
+        font-size: 1.8rem;
+    }
     .localizacao-texto h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         color: var(--detalhes);
         margin-bottom: 10px;
     }
@@ -539,6 +541,10 @@ footer{
     }
     .indices h4{
         font-size: var(--font-p);
+    }
+    .Biografia h1{
+        font-size: 1.8rem;
+
     }
     
 
