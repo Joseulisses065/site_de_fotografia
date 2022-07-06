@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina inicial</title>
-    <link rel="stylesheet" href="css/fotografos.css">
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <link rel="stylesheet" href="../../css/fotografos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="icon.ico">
+    <link rel="icon" href="../../icon.ico">
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap"
         rel="stylesheet">
@@ -18,7 +19,7 @@
 <body>
     <!--cobeçalho do site-->
     <header>
-        <a href="index.php" class="logo"><img src="img/logo.png" alt=""></a>
+        <a href="../../index.php" class="logo"><img src="../../img/logo.png" alt=""></a>
         <nav>
             <ul>
                 <li><a href="#inicio">inicio</a></li>
@@ -46,12 +47,12 @@
         <!--seção inicial do site-->
         <section class="inicio" id="inicio">
             <div class="inicio-imagem">
-                <img src="img/fotografos-2.jpg" alt="">
+                <img src="../../img/fotografos-1.jpg" alt="">
 
             </div>
 
             <div class="inicio-texto">
-                <h1>Amanda Muniz</h1>
+                <h1>Emanuele Martins</h1>
                 <h2>Fotografa e redatora</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam totam recusandae consequatur fugit,
                     atque, esse dolores a neque delectus sunt quos </p>
@@ -79,21 +80,21 @@
         <section class="conteudo-fotografo" id="trabalhos">
             <div class="texto-centro">
                 <h2>Frotografias e textos</h2>
-                <h1>Amanda Muniz</h1>
+                <h1>Emanuele Martins</h1>
             </div>
 
-            <div class="blog-imagem">
+            <div class="conteudo-imagem">
 
 
                 <div class="card">
                     <div class="img-card">
-                        <img src="img/page2-img-01.jpg" alt="">
+                        <img src="../../img/page2-img-01.jpg" alt="">
                     </div>
                     <div class="texto-card">
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="./conteudo1.php" class="lermais">leia mais</a>
+                        <a href="../../conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -102,13 +103,13 @@
 
                 <div class="card">
                     <div class="img-card">
-                        <img src="img/familia-1.jpg" alt="">
+                        <img src="../../img/familia-1.jpg" alt="">
                     </div>
                     <div class="texto-card">
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="./conteudo1.php" class="lermais">leia mais</a>
+                        <a href="../../conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -116,25 +117,25 @@
                 </div>
                 <div class="card">
                     <div class="img-card">
-                        <img src="img/page2-img-02.jpg" alt="">
+                        <img src="../../img/page2-img-02.jpg" alt="">
                     </div>
                     <div class="texto-card">
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="./conteudo1.php" class="lermais">leia mais</a>
+                        <a href="../../conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
                 </div>
                 <div class="card">
                     <div class="img-card">
-                        <img src="img/page2-img-04.jpg" alt="">
+                        <img src="../../img/page2-img-04.jpg" alt="">
                     </div>
                     <div class="texto-card">
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="./conteudo1.php" class="lermais">leia mais</a>
+                        <a href="../../conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -143,13 +144,13 @@
 
                 <div class="card">
                     <div class="img-card">
-                        <img src="img/page2-img-01.jpg" alt="">
+                        <img src="../../img/page2-img-01.jpg" alt="">
                     </div>
                     <div class="texto-card">
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="./conteudo1.php" class="lermais">leia mais</a>
+                        <a href="../../conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
 
@@ -157,13 +158,13 @@
                 </div>
                 <div class="card">
                     <div class="img-card">
-                        <img src="img/familia-1.jpg" alt="">
+                        <img src="../../img/familia-1.jpg" alt="">
                     </div>
                     <div class="texto-card">
                         <h3>21/02/2022</h3>
                         <h2>lorem sdhsdh djdkl</h2>
                         <p>Lorem ipsum dolor sit adipisicing elit. Voluptate molestias quis, eaque qu</p>
-                        <a href="./conteudo1.php" class="lermais">leia mais</a>
+                        <a href="../../conteudo1.php" class="lermais">leia mais</a>
 
                     </div>
                 </div>
@@ -235,7 +236,7 @@
     </footer>
 
 
-    <script src="js/java.js" type="text/javascript"></script>
+    <script src="../../../../js/java.js" type="text/javascript"></script>
 </body>
 
 </html>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina inicial</title>
     <link rel="stylesheet" href="css/conteudo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="icon.ico">
@@ -183,7 +184,7 @@
         <section class="localizacao" id="localizacao">
 
 
-            <div class="inicio-texto">
+            <div class="localizacao-texto">
                 <h1>Estátua de Padre Cícero</h1>
                 <h2>Religião e Cultura</h2>
                 <p>Juazeiro do Norte, no Ceará, é a capital da fé nordestina e onde fica a estátua de Padre Cícero. A

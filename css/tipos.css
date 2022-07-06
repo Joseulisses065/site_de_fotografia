@@ -1,0 +1,429 @@
+
+.familia {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.familia h1 {
+    font-size: 1.8rem;
+}
+
+.texto-centro {
+    height: max-content;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.texto-centro h2 {
+    color: var(--detalhes);
+    margin-bottom: 10px;
+
+}
+
+.texto-centro h1 {
+    font-size: var(--font-g);
+    color: var(--corpo);
+    margin-bottom: 10px;
+}
+
+.familia-imagem {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    grid-gap: 2rem;
+
+
+}
+
+.familia-imagem img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.card {
+    background-color: var(--corpo);
+    border-radius: 5px;
+    border: 3px solid var(--detalhes);
+    box-shadow: 0px 0px 2px var(--outras);
+    transition: 0.6s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.texto-card {
+    padding: 10px;
+}
+
+.texto-card :nth-child(n) {
+    margin-bottom: 10px;
+}
+
+.lermais {
+    color: #e6a61d;
+
+
+}
+
+
+.esportes {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+.esportes-imagem {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    grid-gap: 2rem;
+
+
+}
+
+.esportes-imagem img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+
+.cultura {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.cultura-imagem {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    grid-gap: 2rem;
+
+
+}
+
+.cultura-imagem img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+
+.comida {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+.comida-imagem {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    grid-gap: 2rem;
+
+
+}
+
+.comida-imagem img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+
+
+.contato {
+    padding: 90px 8%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    text-align: center;
+}
+
+
+
+.contato h3 {
+    color: var(--detalhes);
+}
+
+.cont-li {
+    color: var(--corpo);
+    transition: 0.6s;
+    margin-top: 5px;
+}
+
+.cont-li a {
+    color: var(--corpo);
+
+}
+
+.cont-li:hover {
+
+    margin-left: 20px;
+}
+
+
+
+.redes-sociais {
+    color: var(--corpo);
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    justify-content: space-around;
+
+
+}
+
+.redes-sociais svg {
+    transition: 0.6s;
+}
+
+.redes-sociais svg:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    color: #e6a61d;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 900px) {
+  
+    .familia {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+    .familia-texto h2 {
+        font-size: 18px;
+
+
+    }
+
+    .familia-texto h1 {
+        font-size: var(--font-m);
+    }
+
+    .familia-imagem svg {
+        margin: 10px;
+
+    }
+
+    .familia-centro h1 {
+        font-size: var(--font-m);
+        color: var(--corpo);
+        margin-bottom: 10px;
+    }
+
+    .esportes {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+    .esportes-texto h2 {
+        font-size: 18px;
+
+
+    }
+
+    .esportes-texto h1 {
+        font-size: var(--font-m);
+    }
+
+    .esportes-imagem svg {
+        margin: 10px;
+
+    }
+
+    .esportes-centro h1 {
+        font-size: var(--font-m);
+        color: var(--corpo);
+        margin-bottom: 10px;
+    }
+
+    .cultura {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+   
+
+    .cultura-texto h2 {
+        font-size: 18px;
+
+
+    }
+
+    .cultura-texto h1 {
+        font-size: var(--font-m);
+    }
+
+    .cultura-imagem svg {
+        margin: 10px;
+
+    }
+
+    .cultura-centro h1 {
+        font-size: var(--font-m);
+        color: var(--corpo);
+        margin-bottom: 10px;
+    }
+
+    
+    .comida {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    
+
+    .comida-texto h2 {
+        font-size: 18px;
+
+
+    }
+
+    .comida-texto h1 {
+        font-size: var(--font-m);
+    }
+
+    .comida-imagem svg {
+        margin: 10px;
+
+    }
+
+    .comida-centro h1 {
+        font-size: var(--font-m);
+        color: var(--corpo);
+        margin-bottom: 10px;
+    }
+
+
+    .contato {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 400px) {
+
+    .familia-texto h1 {
+        font-size: 1.8rem;
+        color: var(--detalhes);
+        margin-bottom: 10px;
+    }
+
+    .familia-texto h2 {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .familia-texto p {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .familia h1 {
+        font-size: 1.8rem;
+    }
+
+
+    .esportes-texto h1 {
+        font-size: 1.8rem;
+        color: var(--detalhes);
+        margin-bottom: 10px;
+    }
+
+    .esportes-texto h2 {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .esportes-texto p {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .esportes h1 {
+        font-size: 1.8rem;
+    }
+
+    .cultura-texto h1 {
+        font-size: 1.8rem;
+        color: var(--detalhes);
+        margin-bottom: 10px;
+    }
+
+    .cultura-texto h2 {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .cultura-texto p {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .cultura h1 {
+        font-size: 1.8rem;
+    }
+
+    
+    .comida-texto h1 {
+        font-size: 1.8rem;
+        color: var(--detalhes);
+        margin-bottom: 10px;
+    }
+
+    .comida-texto h2 {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .comida-texto p {
+        color: var(--corpo);
+        margin-bottom: 10px;
+
+    }
+
+    .comida h1 {
+        font-size: 1.8rem;
+    }
+
+
+
+
+}

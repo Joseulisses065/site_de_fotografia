@@ -1,95 +1,4 @@
-:root {
-    --corpo: #ffffff;
-    --secundaria: #030f19;
-    --outras: #999fb9;
-    --detalhes: #ffc851;
-    --font-g: 4.8rem;
-    --font-m: 3.2rem;
-    --font-p: 1rem;
 
-
-}
-
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    scroll-behavior: smooth;
-    font-family: 'Open Sans', sans-serif;
-
-
-}
-
-body {
-    position: relative;
-    background-color: var(--secundaria);
-}
-
-header {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    padding: 25px 8%;
-    justify-content: space-between;
-    font-weight: bold;
-}
-
-.ativa {
-    background-color: var(--secundaria);
-    box-shadow: 0px 0px 2px var(--detalhes);
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 100px;
-    max-width: 100px;
-}
-
-.logo img {
-    width: 100%;
-
-}
-
-nav {
-    display: flex;
-}
-
-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav a {
-    display: flex;
-    align-items: center;
-    padding: 10px 28px;
-    font-size: var(--font-p);
-    color: var(--detalhes);
-    transition: 0.6s;
-    text-shadow: 0px 0px 1px var(--corpo);
-
-}
-
-nav a:hover {
-    text-shadow: 0px 0px 5px var(--detalhes);
-    color: var(--corpo);
-
-}
-
-header div {
-    display: none;
-}
-
-
-section {
-    padding: 90px 8%;
-
-}
 
 .inicio {
     display: grid;
@@ -425,27 +334,6 @@ footer {
 
     }
 
-
-
-    .familia {
-        grid-template-columns: 1fr;
-        background-position: bottom;
-
-
-    }
-
-    .familia-imagem {
-        grid-row: 2;
-    }
-
-
-    .familia-texto h1 {
-        font-size: 18px;
-        color: var(--corpo);
-        margin-bottom: 10px;
-    }
-
-
     .texto-centro h1 {
         font-size: var(--font-m);
         color: var(--corpo);
@@ -478,35 +366,6 @@ footer {
         margin-bottom: 20px;
     }
 
-
-    .localizacao {
-        display: grid;
-        grid-template-columns: 1fr;
-
-    }
-
-    .localizacao-imagem img {
-        border-radius: 100%;
-        height: 200px;
-        width: 200px;
-        border: var(--detalhes) 3px solid;
-
-    }
-
-    .localizacao-texto h2 {
-        font-size: 18px;
-
-
-    }
-
-    .localizacao-texto h1 {
-        font-size: var(--font-m);
-    }
-
-    .localizacao-imagem svg {
-        margin: 10px;
-
-    }
 
 
     .contato {
